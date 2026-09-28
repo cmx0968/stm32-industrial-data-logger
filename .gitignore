@@ -1,10 +1,10 @@
-# ==================== CMake 构建产物 ====================
+# CMake 构建产物 
 build/
 cmake-build-*/
 compile_commands.json
 .cache/
 
-# ==================== 原有 Keil 产物（保留） ====================
+# 原有 Keil 产物（保留） 
 *.o
 *.axf
 *.hex
@@ -25,17 +25,20 @@ Objects/
 Listings/
 Output/
 
-# ==================== CubeMX 临时文件 ====================
+# CubeMX 临时文件 
 *.ioc.bak
 .mxproject
 
-# ==================== 编辑器缓存 ====================
+# 编辑器缓存
 .cursor/
 *.code-workspace
 
-# ==================== 系统文件 ====================
+# 系统文件 
 .DS_Store
 Thumbs.db
 
-## ==================== VSCode ====================
+# VSCode
 .vscode/
+
+# Eclipse / STM32CubeIDE 配置
+.settings/
