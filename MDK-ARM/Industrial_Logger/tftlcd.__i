@@ -1,0 +1,5 @@
+--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP
+-I.\RTE\_Industrial_Logger
+-ID:\arm\ARM\CMSIS\6.3.0\CMSIS\Core\Include
+-D__UVISION_VERSION="543" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx
+-o industrial_logger\tftlcd.o --omf_browse industrial_logger\tftlcd.crf --depend industrial_logger\tftlcd.d "..\BSP\tftlcd.c"

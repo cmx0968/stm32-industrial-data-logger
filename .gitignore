@@ -1,0 +1,41 @@
+# ==================== CMake 构建产物 ====================
+build/
+cmake-build-*/
+compile_commands.json
+.cache/
+
+# ==================== 原有 Keil 产物（保留） ====================
+*.o
+*.axf
+*.hex
+*.bin
+*.lst
+*.map
+*.crf
+*.d
+*.dep
+*.lnp
+*.htm
+*.build_log.htm
+*.uvguix.*
+*.uvoptx
+*.scvd
+Debug/
+Objects/
+Listings/
+Output/
+
+# ==================== CubeMX 临时文件 ====================
+*.ioc.bak
+.mxproject
+
+# ==================== 编辑器缓存 ====================
+.cursor/
+*.code-workspace
+
+# ==================== 系统文件 ====================
+.DS_Store
+Thumbs.db
+
+## ==================== VSCode ====================
+.vscode/
